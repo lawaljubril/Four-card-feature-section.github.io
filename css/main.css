@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(245, 243, 243);
+    /* margin: 0; */
+}
+header {
+    text-align: center;
+}
+.first-h3 {
+    font-weight: 100;
+}
+p {
+    font-weight: 100;
+    color: rgba(201, 198, 198, 0.904);
+    /* word-wrap: break-word; */
+}
+h3 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(70, 68, 68);
+}
+
+.column {
+    float: left;
+    width: 33.33333%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#left {
+    margin-top: 180px;
+}
+.cards-1 {
+    width: 390px;
+    height: 260px;
+    margin: 50px auto;
+    box-shadow: 0 -5px  rgb(22, 241, 205);
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: white;
+}
+.cards-2 {
+    width: 390px;
+    height: 260px;
+    margin: 50px auto;
+    box-shadow: 0 -5px  rgba(219, 68, 88, 0.986);
+    /* transition: 0.3s; */
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: white;
+}
+.cards-3 {
+    width: 390px;
+    height: 260px;
+    margin: 50px auto;
+    box-shadow: 0 -5px  rgb(255, 215, 38);
+    /* transition: 0.3s; */
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: white;
+}
+.cards-4 {
+    width: 390px;
+    height: 260px;
+    margin: 50px auto;
+    box-shadow: 0 -5px  rgb(9, 150, 197);
+    /* transition: 0.3s; */
+    border-radius: 4px;
+    padding: 8px 16px;
+    background-color: white;
+}
+.supervisor, .team-builder, .karma, .calculator {
+    padding: 20px 15px;
+    color: black;
+    margin-bottom: 20px;
+}
+.icon-supervisor, .icon-team-builder, .icon-karma, .icon-calculator {
+    height: 65px;
+    width: 65px;
+    float: right;
+    margin-right: 20px;
+}
+/* FOOTER STYLES */
+.attribution { 
+    font-size: 13px; 
+    text-align: center; 
+}
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
